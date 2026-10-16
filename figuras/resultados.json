@@ -1,0 +1,88 @@
+{
+ "teste": {
+  "Regressão Logística": {
+   "Acurácia": 0.9649122807017544,
+   "Precisão": 0.975,
+   "Recall": 0.9285714285714286,
+   "F1-Score": 0.9512195121951219
+  },
+  "Random Forest": {
+   "Acurácia": 0.9736842105263158,
+   "Precisão": 1.0,
+   "Recall": 0.9285714285714286,
+   "F1-Score": 0.9629629629629629
+  }
+ },
+ "cv": {
+  "Regressão Logística": {
+   "Acurácia": [
+    0.9736686849868033,
+    0.016627222216787987
+   ],
+   "Precisão": [
+    0.9862579281183933,
+    0.018235821270907244
+   ],
+   "Recall": [
+    0.9436323366555925,
+    0.052462248353892044
+   ],
+   "F1-Score": [
+    0.9633408685451746,
+    0.023992366704972578
+   ]
+  },
+  "Random Forest": {
+   "Acurácia": [
+    0.9525694767893185,
+    0.013070992193665067
+   ],
+   "Precisão": [
+    0.9461330561330561,
+    0.03892076212631356
+   ],
+   "Recall": [
+    0.9294573643410853,
+    0.057153586946644575
+   ],
+   "F1-Score": [
+    0.9354739810024363,
+    0.019403377313924944
+   ]
+  }
+ },
+ "matrizes": {
+  "Regressão Logística": [
+   [
+    71,
+    1
+   ],
+   [
+    3,
+    39
+   ]
+  ],
+  "Random Forest": [
+   [
+    72,
+    0
+   ],
+   [
+    3,
+    39
+   ]
+  ]
+ },
+ "top_vars": [
+  "perimeter_worst",
+  "area_worst",
+  "concave points_worst",
+  "concave points_mean",
+  "radius_worst",
+  "radius_mean",
+  "perimeter_mean",
+  "area_mean",
+  "concavity_mean",
+  "area_se"
+ ]
+}
